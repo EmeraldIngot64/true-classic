@@ -10,9 +10,13 @@
           "argument": "0xffffff",
           "modifier": "override"
       },
-        "minecraft:visual/ambient_light_color": {
+      "minecraft:visual/ambient_light_color": {
           "argument": "0x0f0f05",
           "modifier": "override"
+      },
+      "minecraft:visual/block_light_tint": {
+        "argument": "0xe3d4a0",
+        "modifier": "override"
       }
   }
 }
