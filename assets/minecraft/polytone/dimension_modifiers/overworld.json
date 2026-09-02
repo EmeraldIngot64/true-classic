@@ -2,7 +2,6 @@
   "attributes_modifiers": {
     "post_process": {
         "minecraft:visual/cloud_fog_end_distance": 768,
-        "minecraft:visual/cloud_color": "#FFFFFFFF",
         "minecraft:visual/water_fog_start_distance": "-16",
         "minecraft:visual/water_fog_end_distance": "32",
         "minecraft:visual/water_fog_color": "#000630",
