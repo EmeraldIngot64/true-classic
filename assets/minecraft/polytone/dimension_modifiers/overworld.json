@@ -1,12 +1,18 @@
 {
   "attributes_modifiers": {
-    "post_process": {
-        "minecraft:visual/cloud_fog_end_distance": 768,
-        "minecraft:visual/water_fog_start_distance": "-16",
-        "minecraft:visual/water_fog_end_distance": "32",
-        "minecraft:visual/water_fog_color": "#000630",
-        "minecraft:visual/fog_start_distance": 192,
-        "minecraft:visual/fog_end_distance": 256
-    }
+      "minecraft:visual/cloud_fog_end_distance": 768,
+      "minecraft:visual/water_fog_start_distance": -16,
+      "minecraft:visual/water_fog_end_distance": 32,
+      "minecraft:visual/water_fog_color": "#000630",
+      "minecraft:visual/fog_start_distance": 192,
+      "minecraft:visual/fog_end_distance": 256,
+      "minecraft:visual/sky_light_color": {
+          "argument": "0xffffff",
+          "modifier": "override"
+      },
+        "minecraft:visual/ambient_light_color": {
+          "argument": "0x0f0f05",
+          "modifier": "override"
+      }
   }
 }
