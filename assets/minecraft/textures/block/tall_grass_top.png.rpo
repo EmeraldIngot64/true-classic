@@ -1,4 +1,4 @@
 {
-    condition: "shortGrassTexture164",
+    condition: "shortGrassTexturePre18",
     fallback: "new_tall_grass_top.png"
 }
