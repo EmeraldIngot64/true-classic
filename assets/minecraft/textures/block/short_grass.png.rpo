@@ -1,0 +1,4 @@
+{
+    condition: "shortGrassTexture164",
+    fallback: "new_short_grass.png"
+}

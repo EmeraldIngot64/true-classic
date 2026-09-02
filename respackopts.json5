@@ -1,0 +1,8 @@
+{
+    id: "oldtextures",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        shortGrassTexture164: false
+    }
+}
