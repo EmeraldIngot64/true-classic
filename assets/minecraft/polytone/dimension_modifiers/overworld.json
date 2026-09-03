@@ -15,11 +15,11 @@
           "modifier": "override"
       },
       "minecraft:visual/ambient_light_color": {
-          "argument": "0x0f0f05",
+          "argument": "0x0c0c0a",
           "modifier": "override"
       },
       "minecraft:visual/block_light_tint": {
-        "argument": "0xded4a0",
+        "argument": "0xe8d4a0",
         "modifier": "override"
       },
       "minecraft:visual/fog_color": "#afcdff"
