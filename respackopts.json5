@@ -1,8 +1,0 @@
-{
-    id: "oldtextures",
-    version: 13,
-    capabilities: ["FileFilter", "DirFilter"],
-    conf: {
-        style16: false,
-    }
-}
