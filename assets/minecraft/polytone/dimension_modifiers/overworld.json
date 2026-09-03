@@ -19,7 +19,7 @@
       "modifier": "override"
     },
     "minecraft:visual/block_light_tint": {
-      "argument": "0xe8d4a0",
+      "argument": "0xffe6b1",
       "modifier": "override"
     },
     "minecraft:visual/fog_color": "#afcdff"
