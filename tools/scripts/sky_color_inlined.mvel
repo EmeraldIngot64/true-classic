@@ -1,3 +1,24 @@
+/*
+    Returns a different sky color for day and night,
+    and lerps between the two colors during the day/night transition
+
+    Day: from 730 to 11270
+    Night: from 13140 to 22860 
+    Night to day transition: from 22860 to 730
+
+    This functionality in vanilla is controlled by `data/minecraft/timeline/day.json`
+    Polytone currently does not support timelines
+    Hopefully once it does, this spaghetti code can be retired
+
+    Notes:
+
+    MVEL only supports wrapper types.
+    The interpreter in Polytone is set to strict mode, so methods don't really work
+    There's a slew of reserved variable names that cause a runtime error when used
+    There's not any logging for those errors, so pinpointing the issue is painful :)
+*/
+
+
 Integer day_time = (Integer)(g.dayTime() % 24000);
 
 Integer[] day_rgb = new Integer[] { 255, 255, 255 };

@@ -1,3 +1,8 @@
+/*
+    This script was an early version of `sky_color_inlined.mvel`
+    It is still around in case it is needed, but otherwise pointless
+*/
+
 def lerpColor(start, end, min, max, current) {
     start_rgb = unpackColor(start);
     end_rgb = unpackColor(end);
