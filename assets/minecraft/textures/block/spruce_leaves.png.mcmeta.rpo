@@ -1,0 +1,4 @@
+{
+    condition: "style16",
+    fallback: "1122_spruce_leaves.png.mcmeta"
+}

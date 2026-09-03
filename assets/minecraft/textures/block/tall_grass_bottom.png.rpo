@@ -1,4 +1,4 @@
 {
-    condition: "shortGrassTexturePre18",
+    condition: "style16",
     fallback: "new_tall_grass_bottom.png"
 }

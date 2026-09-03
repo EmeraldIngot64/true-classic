@@ -3,6 +3,6 @@
     version: 13,
     capabilities: ["FileFilter", "DirFilter"],
     conf: {
-        shortGrassTexturePre18: false,
+        style16: false,
     }
 }

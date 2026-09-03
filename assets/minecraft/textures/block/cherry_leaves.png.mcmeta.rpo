@@ -1,0 +1,4 @@
+{
+    condition: "style16",
+    fallback: "1122_cherry_leaves.png.mcmeta"
+}
