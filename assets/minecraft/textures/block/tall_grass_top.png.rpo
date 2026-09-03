@@ -1,4 +1,0 @@
-{
-    condition: "style16",
-    fallback: "new_tall_grass_top.png"
-}

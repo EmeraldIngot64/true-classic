@@ -3,5 +3,18 @@
     "description": "1.6.4 Style",
     "min_format": 88,
     "max_format": 88
+  },
+  "overlays": {
+    "entries": [
+        {
+            "directory": "style_164", 
+            "polytone_condition": {
+                "require_config": "trueclassic:style_164"
+            },
+            "formats": [18, 99],
+            "min_format": 18,
+            "max_format": 99
+        }
+    ]
   }
 }

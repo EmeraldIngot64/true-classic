@@ -1,5 +1,5 @@
 {
-    "texture": {
-        "mipmap_strategy": "cutout"
-    }
+  "texture": {
+      "mipmap_strategy": "mean"
+  }
 }
