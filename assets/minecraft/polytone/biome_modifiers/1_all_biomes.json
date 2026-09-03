@@ -1,0 +1,4 @@
+{
+  "targets": [ "#minecraft:is_overworld" ],
+  "water_color": "#ffffff"
+}

@@ -1,0 +1,4 @@
+{
+  "targets": [ "minecraft:swamp", "minecraft:mangrove_swamp" ],
+  "water_color": "#ededb6"
+}
