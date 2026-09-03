@@ -1,0 +1,46 @@
+def lerpColor(start, end, min, max, current) {
+    start_rgb = unpackColor(start);
+    end_rgb = unpackColor(end);
+
+    range = max - min;
+    progress = (current - min) / ((double)range);
+
+    change_r = end_rgb[0] - start_rgb[0];
+    change_g = end_rgb[1] - start_rgb[1];
+    change_b = end_rgb[2] - start_rgb[2];
+
+    current_r = (Integer)(start_rgb[0] + (progress * change_r));
+    current_g = (Integer)(start_rgb[1] + (progress * change_g));
+    current_b = (Integer)(start_rgb[2] + (progress * change_b));
+
+    return packColor(current_r, current_g, current_b);
+}
+
+def packColor(r, g, b) {
+    return ((r & 0xFF) << 16 | (g & 0xFF) << 8 | (b & 0xFF));
+}
+
+def unpackColor(packed_int) {
+    return [
+        (packed_int >> 16) & 0xFF,
+        (packed_int >> 8) & 0xFF,
+        (packed_int) & 0xFF
+    ];
+}
+
+/* Fields default to the wrapper type, so if we don't play along lerpColor's signature can't be matched */
+day_time = (Integer)(g.dayTime() % 24000);
+
+day = 16777215;
+night = 8026879;
+
+sky_color = -1;
+
+if (day_time < 13140) {
+    sky_color = lerpColor(day, night, 0, 13140, day_time);
+}
+else if (day_time >= 13140) {
+    sky_color = lerpColor(night, day, 13140, 24000, day_time);
+}
+
+return sky_color;
