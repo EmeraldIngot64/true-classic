@@ -1,27 +1,27 @@
 {
   "attributes_modifiers": {
-      "minecraft:visual/cloud_fog_end_distance": 730,
-      "minecraft:visual/water_fog_start_distance": -16,
-      "minecraft:visual/water_fog_end_distance": 32,
-      "minecraft:visual/water_fog_color": "#000630",
-      "minecraft:visual/fog_start_distance": {
-        "argument": "config('trueclassic:style_164') ? 128 : 192",
-        "modifier": "override"
-      },
-      "minecraft:visual/fog_end_distance": 256,
-      "minecraft:visual/cloud_height": 132,
-      "minecraft:visual/sky_light_color": {
-          "argument": "0xffffff",
-          "modifier": "override"
-      },
-      "minecraft:visual/ambient_light_color": {
-          "argument": "0x0c0c0a",
-          "modifier": "override"
-      },
-      "minecraft:visual/block_light_tint": {
-        "argument": "0xe8d4a0",
-        "modifier": "override"
-      },
-      "minecraft:visual/fog_color": "#afcdff"
+    "minecraft:visual/cloud_fog_end_distance": 730,
+    "minecraft:visual/water_fog_start_distance": -16,
+    "minecraft:visual/water_fog_end_distance": 32,
+    "minecraft:visual/water_fog_color": "#000630",
+    "minecraft:visual/fog_start_distance": {
+      "argument": "config('trueclassic:style_164') ? 128 : 192",
+      "modifier": "override"
+    },
+    "minecraft:visual/fog_end_distance": 256,
+    "minecraft:visual/cloud_height": 132,
+    "minecraft:visual/sky_light_color": {
+      "argument": "Integer day_time = (Integer)(g.dayTime() % 24000);Integer[] day_rgb = new Integer[] { 255, 255, 255 };Integer[] night_rgb = new Integer[] { 253, 255, 218 };Integer sky_color = -1;Integer[] start_rgb = null;Integer[] end_rgb = null;Integer min_value = 0;Integer max_value = 0;Integer current = 0;if (day_time >= 730 && day_time <= 11270) { return ((day_rgb[0] & 0xFF) << 16 | (day_rgb[1] & 0xFF) << 8 | (day_rgb[2] & 0xFF));}else if (day_time >= 13140 && day_time <= 22860) { return ((night_rgb[0] & 0xFF) << 16 | (night_rgb[1] & 0xFF) << 8 | (night_rgb[2] & 0xFF));}else if (day_time >= 11270 && day_time <= 13140) { start_rgb = day_rgb; end_rgb = night_rgb; min_value = 11270; max_value = 13140; current = day_time;}else { start_rgb = night_rgb; end_rgb = day_rgb; min_value = 22860;  max_value = 24730;  current = day_time < 22860 ? (day_time + 24000) : day_time; }Integer lerp_range = (max_value - min_value);Float lerp_progress = (current - min_value) / ((Float) lerp_range);Integer change_r = end_rgb[0] - start_rgb[0];Integer change_g = end_rgb[1] - start_rgb[1];Integer change_b = end_rgb[2] - start_rgb[2];Integer current_r = (Integer)(start_rgb[0] + (lerp_progress * change_r));Integer current_g = (Integer)(start_rgb[1] + (lerp_progress * change_g));Integer current_b = (Integer)(start_rgb[2] + (lerp_progress * change_b));return ((current_r & 0xFF) << 16 | (current_g & 0xFF) << 8 | (current_b & 0xFF));",
+      "modifier": "override"
+    },
+    "minecraft:visual/ambient_light_color": {
+      "argument": "0x0c0c0a",
+      "modifier": "override"
+    },
+    "minecraft:visual/block_light_tint": {
+      "argument": "0xe8d4a0",
+      "modifier": "override"
+    },
+    "minecraft:visual/fog_color": "#afcdff"
   }
 }
