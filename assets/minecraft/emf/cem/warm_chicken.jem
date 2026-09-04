@@ -1,0 +1,228 @@
+{
+  "models": [
+    {
+      "part": "bill",
+      "id": "bill",
+      "attach": false,
+      "invertAxis": "xy",
+      "translate": [
+        0.0,
+        -9.0,
+        4.0
+      ],
+      "textureSize": [
+        64,
+        32
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            14,
+            0
+          ],
+          "coordinates": [
+            -2.0,
+            11.0,
+            -8.0,
+            4.0,
+            2.0,
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "attach": false,
+      "invertAxis": "xy",
+      "translate": [
+        1.0,
+        -5.0,
+        -1.0
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            26,
+            0
+          ],
+          "coordinates": [
+            -3.0,
+            0.0,
+            -2.0,
+            3.0,
+            5.0,
+            3.0
+          ]
+        }
+      ]
+    },
+    {
+      "part": "left_wing",
+      "id": "left_wing",
+      "attach": false,
+      "invertAxis": "xy",
+      "translate": [
+        4.0,
+        -11.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            24,
+            13
+          ],
+          "coordinates": [
+            -4.0,
+            7.0,
+            -3.0,
+            1.0,
+            4.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "attach": false,
+      "invertAxis": "xy",
+      "translate": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            0,
+            9
+          ],
+          "coordinates": [
+            -3.0,
+            4.0,
+            -3.0,
+            6.0,
+            8.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "part": "head",
+      "id": "head",
+      "attach": false,
+      "invertAxis": "xy",
+      "translate": [
+        0.0,
+        -9.0,
+        4.0
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            0,
+            0
+          ],
+          "coordinates": [
+            -2.0,
+            9.0,
+            -6.0,
+            4.0,
+            6.0,
+            3.0
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_wing",
+      "id": "right_wing",
+      "attach": false,
+      "invertAxis": "xy",
+      "translate": [
+        -4.0,
+        -11.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            24,
+            13
+          ],
+          "coordinates": [
+            3.0,
+            7.0,
+            -3.0,
+            1.0,
+            4.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "attach": false,
+      "invertAxis": "xy",
+      "translate": [
+        -2.0,
+        -5.0,
+        -1.0
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            26,
+            0
+          ],
+          "coordinates": [
+            0.0,
+            0.0,
+            -2.0,
+            3.0,
+            5.0,
+            3.0
+          ]
+        }
+      ]
+    },
+    {
+      "part": "chin",
+      "id": "chin",
+      "attach": false,
+      "invertAxis": "xy",
+      "translate": [
+        0.0,
+        -9.0,
+        4.0
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            14,
+            4
+          ],
+          "coordinates": [
+            -1.0,
+            9.0,
+            -7.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        }
+      ]
+    }
+  ],
+  "textureSize": [
+    64,
+    32
+  ]
+}
