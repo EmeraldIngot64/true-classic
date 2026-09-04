@@ -15,7 +15,7 @@
       "modifier": "override"
     },
     "minecraft:visual/ambient_light_color": {
-      "argument": "0x0c0c0a",
+      "argument": "config('trueclassic:style_164') ? 0x141412 : 0x0c0c0a",
       "modifier": "override"
     },
     "minecraft:visual/block_light_tint": {
