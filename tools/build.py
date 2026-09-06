@@ -1,7 +1,7 @@
 import zipfile
 from pathlib import Path
 
-output_path = Path("../build/trueclassic.zip")
+output_path = Path("../build/true-classic.zip")
 sources = ["../assets", "../style_164", "../pack.mcmeta", "../pack.png"]
 
 with zipfile.ZipFile(output_path, "w", zipfile.ZIP_DEFLATED) as zip_file:
