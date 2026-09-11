@@ -23,7 +23,7 @@ A comparison of 1.6.4 with True Classic (with 1.6 style applied)
 
 There's already plenty of resource packs (like [Golden Days](https://modrinth.com/resourcepack/golden-days)) that bring the feel of *beta* Minecraft to the latest versions, but the older release 1.x versions of Minecraft have such a unique and special feel!
 
-The graphical style of Minecraft is very simiar in **1.0** through **1.6.4** and in **1.7** through **1.12.2**, minus some minor fog and biome blend differences.
+The graphical style of Minecraft is very similar in **1.0** through **1.6.4** and in **1.7** through **1.12.2**, minus some minor fog and biome blend differences.
 
 This project captures both styles and allows you to toggle between them
 
